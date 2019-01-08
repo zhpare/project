@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>贝太厨房 - 大众食谱 菜谱 美食分享,中国最具人气的一站式美食厨艺生活门户</title>
+		<link rel="stylesheet" href="css/foodMma1.css" type="text/css"/>
+		<link  rel="icon" href="img/inco.png"/>
+	</head>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/foodMmaterial1.js"></script>
+	<script type="text/javascript" src="js/vue.js"></script>
+	<body>
+		<div>
+			<div id="nav"><!--导航栏-->
+				<div id="nav_bar"><!--导航栏列表-->
+					<div id="nav_barRight">
+						<img src="img/logo_red.png" class="img1"/>
+						<input type="text" placeholder="搜索/食谱" />
+						<img src="img/search.png" class="img2"/>
+					</div>
+					<div id="nav_barleft">
+						<ul id="nav_ul">
+							<a href="#"><li id="frist-li">首页</li></a>
+							<a href="#"><li>食谱</li></a>
+							<a href="#"><li>贝太书刊</li></a>
+							<a href="#"><li>试用大队</li></a>
+							<a href="#"><li>安琪商场</li></a>
+							<a href="#"><li>登录/注册</li></a>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div id="main_body">
+				<div id="kitchen_story">
+					<span class="kitchen">厨房故事</span>
+					<span class="kitchen_text">
+				      {{mag}}
+				    </span>
+				    <div id="kitchen_photo">
+				    	<img  v-bind:src="img1" class="img_ziye"/>
+				    	<span class="main_text">
+				    		世界面包六强精英赛上海落幕，焙乐道带来比利时烘焙新力量
+				    	</span>
+				    	<div>
+				    		<div id="show_box">
+					    		<img id="inco_photo" src="img/inco.png" />
+					    		<div id="collect">
+					    			<img src="img/更多子页面/phone.png" class="smail_photo"/>
+					    			<span class="samil_text" id="App">APP</span>
+					    			<img src="img/更多子页面/upshow.png" class="smail_photo"/>
+					    			<span class="samil_text" id="shouchang">分享</span>
+					    			<img src="img/更多子页面/stroy.png" class="smail_photo"/>
+					    			<span class="samil_text">收藏</span>
+					    		</div>
+				    		</div>
+				    		<div id="hide_box">
+					    		<div id="divimg">
+					    			<img src="img/更多子页面/logo.png"/>
+					    			<span>扫码下载<br/> 贝太厨房APP</span>
+					    		</div>
+					    		<div id="divimg1">
+					    			<img src="img/更多子页面/api.png"/>
+					    			<span>扫码分享</span>
+					    		</div>
+				    		</div>
+				    	</div>
+				    	<div id="ParagraphArticle">
+				    		<span class="Paragraph1">2018年11月15日，“第二届世界面包六强精英赛” (2nd Best of Mondial du Pain)在中国上海落下了帷幕，来自比利时的烘焙师们不负众望，以独具比利时特色的艺术面包取得了亚军的好成绩。为了这场比赛，他们准备了整整九个月，把所有的私人时间都用来备战这次的比赛。</span>
+				    		<img v-bind:src="img2" class="img_ziye"/>
+				    		<span>面包六强精英赛，烘焙界的顶级赛事</span><br/>
+				    		<span class="Paragraph1">这一次的“面包六强精英赛”是在第6届“世界面包大赛”的基础上进行的精英对决。“世界面包大赛“（Mondial du Pain）始于2007年，由世界面包大使团（Les Ambassadeur du Pain）在法国创建，目前有60余个国家和地区参加，代表了各个国家及地区最高的面包烘焙水平。2017年10月，“第六届世界面包大赛”在法国南特举行，经过一番白热化的比拼，最终中国队、法国队、日本队、意大利队、比利时队和秘鲁队从中脱颖而出。这一次，这6支胜出队伍齐聚上海，再次一较高下。</span>
+				    		<span class="Paragraph1">经过一年的充分准备，这些精英烘焙师们以“味觉&#38;营养”为比赛核心，展现了精湛的烘焙工艺，让烘焙爱好者们享受了一次视觉与味蕾的双重盛宴，也让众多业内的烘焙师们有了一次沟通交流的机会。</span>
+				    		<img v-bind:src="img3" class="img_ziye"/><br/>
+				    		<span>来自比利时的味觉惊艳</span>
+				    		<span class="Paragraph1">在这一次的比赛中，三位代表比利时参赛的烘焙师Guido Devillé、Bart Schelstraete、Joran Defossez带来了颇具比利时特色的艺术面包作品，他们提到：“比利时最负盛名的特产就是啤酒(Buffalo)和巧克力(Belcolade贝可拉)，我们的啤酒面包就是很有比利时特色的，因为比利时以上千种优良啤酒而闻名，这款面包是我们在这次比赛中的独具国家特色的产品，它应该为我们比赛加了不少分。”而资深烘焙培训师兼咨询师Guido Devillé在2016年台湾举行的“第一届面包六强精英赛”中，就已经从激烈的争夺中突围，获得了冠军。对于这一次参赛，他没有因此觉得轻松，因为一年的时间世界面包烘焙趋势又发生了很多变化，他表示“各国对于烘焙行业越来越关注，竞争也就更激烈了，我们一直在努力，我们也培训很多烘焙师，让他们参加很多国际赛事，他们可以从中学习到很多宝贵的经验，这对宣传和发展比利时的烘焙行业也是非常必要的。”</span>
+				    		<span class="Paragraph1">比利时有着悠久的烘焙文化史，从享誉全球的比利时国民美食——华夫饼就可见一斑，比利时除了在烘焙方面拥有自己的独特风格，同时也孕育了一批世界烘焙技能的革新者。其中不乏如焙乐道Puratos这样的佼佼者，作为全方位的烘焙原料供应商，近百年来一直怀揣着对烘焙革新的极大热情为全球逾百个国家和地区提供关于面包、糕点和巧克力的优质烘焙原料、专业可靠的技术和解决方案，在烘焙方面拥有自己的独特风格。</span>
+				    		<img v-bind:src="img4" class="img_ziye"/>
+				    		<img v-bind:src="img5" class="img_ziye"/>
+				    		<span>焙乐道，锐意创新的行业革新者</span>
+				    		<span class="Paragraph1">焙乐道Puratos始终践行着帮助面包、糕点和巧克力制造者成功发展他们的事业的使命，同时焙乐道也积极支持世界烘焙事业的发展，在本次比赛中作为比利时队的参赛赞助商，助力弘扬比利时的烘焙文化。它研发的特有老面团术“司焙乐SAPORE”，以及烘焙原料“欧坦得O-tentic”，改变了面包的发酵以及烘焙方法，推动了面包烘焙文化的革新。</span>
+				    		<span class="Paragraph1">欧坦得O-tentic, 一种基于天然发酵风味物的活性烘焙元素，有如神奇的面包魔法，可以呈现出色的传统面包风味来满足挑剔的食客味蕾。欧坦得让面包即使是短时间发酵，也能拥有老面团面包的那种多层次口感和浓郁味道。而司焙乐是一种最新的现代化工艺，将老面团工作转化成原料的独特烘焙解决方案。它解决了面包储存过程中口感的流失问题，让我们在家里也能吃到犹如刚出炉时的面包口感，更柔软、更有弹性，更健康。</span>
+				    		<span class="Paragraph1">除此之外，焙乐道还是甜品爱好者们的福音。由焙乐道旗下顶级纯脂巧克力品牌贝可拉出品的秘鲁原产地黑巧克力，是顶级甜品师们秘而不宣的私藏佳品。这次比利时参赛的烘焙师也选用了焙乐道的巧克力和橙子搭配，带来更丰富而有层次的口感，这款作品打破了人们对面包的刻板印象，让面包爱好者们感受到了具有比利时特色巧克力加以点缀的风味面包。产品的味道和最终呈现的效果都很重要。这一款黑巧由克里奥洛和千里塔里奥可可豆混合制成，来自秘鲁原产地的可可豆层次丰富，带着微酸口感，是可可豆买家们追求的顶级臻品 。</span>
+				    		<img v-bind:src="img6" class="img_ziye"/>
+				    		<span>面包文化的传承与创新</span>
+				    		<span class="Paragraph1">传承美味，创新未来，六强赛场上一个个造型精致的面包作品，无一不凝聚了烘焙师们的热情和创造力。在这里，不仅可以看到各国面包文化与技艺的碰撞与交流，还可以体会到面包背后的传承与创新。资深的比利时面包师Bart、Guido和他们的年轻的学徒Joran，结合他们丰富的烘焙经验和新一辈的创意发想，将融合了比利时文化特色的美味尽情展现。而作为这支强队的推动者焙乐道食品公司，多年来同样默默做着所有专业烘焙师的创新推手，推动面包、糕点和巧克力的烘焙事业。在潜心创新烘焙原料和技术的同时，焙乐道更在印度和巴西先后建立了烘焙学院，让许多出身贫困家庭的年轻人受到专业的培训，发展烘焙技能，从而开拓属于他们光明的烘焙未来。</span>
+				    		<span class="Paragraph1">而作为这一股力量的推动者焙乐道，就如比利时这个国度的形象一样满足于安静创造，它的技术创新，让越来越多的人即使在食品工业化的浪潮中，仍然能享用最好的味道，让生活仍然保持幸福真味。</span>
+				    		<img v-bind:src="img7" class="img_ziye"/>
+				    	</div>
+				    	<div id="black_box"></div>
+				    	<div id="comment_box">
+				    		<textarea placeholder="输入文字发表你的评论" value=""></textarea>
+				    	</div>
+				    	<div id="Addcomment_box">
+				    		发表评论
+				    	</div>
+				    </div>
+				</div>
+			</div>
+			<div id="button_Box">
+				<div id="button_di">
+					<div id="button_diLeft">
+						<div class="Buttonleft_div">
+							<img src="img/button_img.png"/>
+							<span>beitaichufang.com</span>
+						</div>
+						<div id="call_way">
+							<img src="img/底部图标/1.png" class="dibu1"/>
+							<img src="img/底部图标/2.png" class="dibu2"/>
+							<img src="img/底部图标/3.png" class="dibu3"/>
+						</div>
+					</div>
+					<div id="img_minBox">
+						<div id="img_disNone"><img src="img/底部图标/dibu.jpg"/></div>
+					</div>
+					<div id="button_diRight">
+						<div class="button_ulBox">
+							<ul class="button_ul">
+								<a href=""><li class="list_frist">关于贝太厨房</li></a>
+								<a href=""><li>了解贝太</li></a>
+								<a href=""><li>团队介绍</li></a>
+								<a href=""><li>美食专家</li></a>
+								<a href=""><li>贝太星厨</li></a>
+								<a href=""><li>加入我们</li></a>
+							</ul>
+						</div>
+						<div class="button_ulBox">
+							<ul class="button_ul">
+								<a href=""><li class="list_frist">产品服务</li></a>
+								<a href=""><li>美食生活书刊</li></a>
+								<a href=""><li>Web &#38; App</li></a>
+								<a href=""><li>品质优选</li></a>
+							</ul>
+						</div>
+						<div class="button_ulBox">
+							<ul class="button_ul">
+								<a href=""><li class="list_frist">联系我们</li></a>
+								<a href=""><li>投稿</li></a>
+								<a href=""><li>商务合作</li></a>
+							</ul>
+						</div>
+					</div>
+					
+				</div>
+				<div id="button_end">
+					<hr/>
+					<span>
+				      Copyright © 2017 北京贝太文化传媒有限公司 版权所有 [京ICP备16044594号]
+				    </span>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			var page=1;
+			var str = location.href;
+			var num = str.indexOf("?");
+			str = str.substr(num + 4);
+			var Arr = ["世界面包六强精英赛上海落幕，焙乐道带来比利时烘焙新力量","时蔬拌槐花","如何腌制鲜香的羊肉串","玩烘焙的你躺枪了吗？","是谁说做烘焙能发财的，你给我站出来！","就说老师教烘焙的时候你干嘛去了！"," 夏天里最清凉的一碗汤","八零后们，你们真的觉得这些过年零食好吃？创新才是改变生活的王道！","都叫“茴香”，长得不像是怎么回事？","  走了那么多路，你又吃过几种盐呢？","杏仁的百搭就像李钟硕收割小花","荠菜，春天的味道","世界面包六强精英赛上海落幕，焙乐道带来比利时烘焙新力量","时蔬拌槐花","如何腌制鲜香的羊肉串","玩烘焙的你躺枪了吗？","是谁说做烘焙能发财的，你给我站出来！","就说老师教烘焙的时候你干嘛去了！"," 夏天里最清凉的一碗汤","八零后们，你们真的觉得这些过年零食好吃？创新才是改变生活的王道！","都叫“茴香”，长得不像是怎么回事？","  走了那么多路，你又吃过几种盐呢？","杏仁的百搭就像李钟硕收割小花","荠菜，春天的味道","世界面包六强精英赛上海落幕，焙乐道带来比利时烘焙新力量","时蔬拌槐花","如何腌制鲜香的羊肉串","玩烘焙的你躺枪了吗？","是谁说做烘焙能发财的，你给我站出来！","就说老师教烘焙的时候你干嘛去了！"," 夏天里最清凉的一碗汤","八零后们，你们真的觉得这些过年零食好吃？创新才是改变生活的王道！","都叫“茴香”，长得不像是怎么回事？","  走了那么多路，你又吃过几种盐呢？","杏仁的百搭就像李钟硕收割小花","荠菜，春天的味道"];
+			var changeKitchen_text= new Vue({
+				el:'.kitchen_text',
+				data:{
+					mag:Arr[str-1],
+				}
+			})
+			var changeImg= new Vue({
+				el:'#kitchen_photo',
+				data:{
+					img1:'img/更多子页面/更多子页面'+str+'/ziye1.jpg',
+					img2:'img/更多子页面/更多子页面'+str+'/ziye2.jpg',
+					img3:'img/更多子页面/更多子页面'+str+'/ziye3.jpg',
+					img4:'img/更多子页面/更多子页面'+str+'/ziye4.jpg',
+					img5:'img/更多子页面/更多子页面'+str+'/ziye5.jpg',
+					img6:'img/更多子页面/更多子页面'+str+'/ziye6.jpg',
+					img7:'img/更多子页面/更多子页面'+str+'/ziye7.jpg',
+				}
+			})
+		</script>
+	</body>
+</html>

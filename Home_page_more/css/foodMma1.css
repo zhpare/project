@@ -1,0 +1,303 @@
+body{
+	padding: 0px;
+	margin: 0px;
+}
+/*导航栏*/
+#nav{
+	width:100%;
+	height: 80px;
+	z-index: 1;
+	/*border-bottom: 1px solid #ccc;*/
+}
+#nav_bar{
+	position: fixed;
+	background-color: white;
+	border-bottom: 1px solid #ccc;
+	z-index: 1;
+	width: 100%;
+}
+#nav_bar input{
+	width: 293px;
+	height: 45px;
+    border-radius: 50px;
+    border: 1px solid gainsboro;
+    padding-left: 20px;
+}
+.img1{
+	width: 80px;
+	margin-left: 195px;
+	margin-top: 20px;
+}
+.img2{
+	width: 20px;
+	margin-bottom: -5px;
+	margin-left: -45px;
+	cursor: pointer;
+}
+#nav_barRight{
+	float: left;
+}
+#nav_barleft{
+	padding-left: 610px;
+}
+#nav_ul{
+	width: 1300px;
+	height: 80px;
+	margin: 0px;
+}
+#nav_ul li{
+	float: left;
+	list-style: none;
+	padding: 15px 0px;
+	margin: 15px 18px;
+	text-decoration: none;
+	color:black;
+	font-size:14px;
+}
+#nav_ul li:hover{
+	font-weight: bold;
+}
+#frist-li{
+	border-bottom: 2px #FFF solid;
+	font-weight: bold;
+}
+/*厨房故事*/
+#main_body{
+	width: 978px;
+	height: 5450px;
+	margin: 0px auto;
+}
+#kitchen_story{
+	margin-top:30px ;
+}
+.kitchen{
+	color: #d8316c;
+	font-weight: 800;
+}
+#inco_photo{
+	float: left;
+	height: 50px;
+	border-radius:50% ;
+}
+#kitchen_photo{
+	padding-top: 30px;
+	width: 650px;
+	height:1000px ;
+	margin: 0px auto;
+}
+.img_ziye{
+	width: 650px;
+	height: 433px;
+	margin: 10px 0px;
+}
+.main_text{
+	display: block;
+	color: #000000;
+	font-size: 24px;
+	font-weight: 800;
+	margin: 25px 0px;
+}
+#collect{
+	cursor: pointer;
+	height: 50px;
+	float: right;
+	padding: 0px;
+	margin: 0px;
+}
+.smail_photo{
+	width: 23px;
+	padding-top: 15px;
+	margin-left:15px ;
+}
+.samil_text:hover{
+	color: #d8316c;
+}
+.samil_text{
+	line-height: 46px;
+	font-size: 18px;	
+}
+
+#show_box{
+	height: 50px;
+}
+#divimg{
+	display: none;
+	margin-left: 380px;
+	float: left;
+	width: 140px;
+	height: 200px;
+	background-color: papayawhip;
+}
+#divimg img{
+	
+	padding-top: 10px;
+	padding-left: 10px;
+	width: 120px;
+}
+#divimg span{
+	display: block;
+	margin:10px ;
+	width: 130px;
+	text-align: center;
+}
+#divimg1{
+	display: none;
+	margin-left: 470px;
+	float: left;
+	width: 140px;
+	height: 200px;
+	background-color: papayawhip;
+}
+#divimg1 img{
+	padding-top: 10px;
+	padding-left: 10px;
+	width: 120px;
+}
+#divimg1 span{
+	display: block;
+	margin:15px ;
+	width: 130px;
+	text-align: center;
+}
+#hide_box{
+	position: absolute;
+	float: right;
+	z-index: 999;
+}
+#ParagraphArticle{
+	margin:20px 0px;
+}
+#ParagraphArticle span{
+	font-size:17px ;
+}
+.Paragraph1{
+	display: block;
+	margin: 20px 0px;
+	text-align: justify;
+}
+#black_box{
+	width: 60px;
+	height: 5px;
+	background-color: black;
+}
+#comment_box{
+	margin: 40px 0px;
+	width: 626px;
+	height: 200px;
+}
+#comment_box textarea{
+	padding: 20px 24px;
+	font-size: 16px;
+	width: 602px;
+	height: 180px;
+	border: 1.5px solid #dadada;
+	line-height: 28px;
+	font-family: inherit;
+}
+#Addcomment_box{
+	margin-top: 20px;
+	cursor: pointer;
+    width: 100px;
+    height: 36px;
+    background: #d8316c;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    line-height: 36px;
+    border-radius: 3px;
+    float: right;
+}
+/*网底*/
+#button_Box{
+	margin-top: 20px;
+	width: 100%;
+	height: 380px;
+	background-color: #080d11;
+}
+#button_di{
+	height: 300px;
+	width: 978px;
+	margin: 0px auto;
+}
+.Buttonleft_div{
+	padding-top: 60px;
+	width: 120px;
+}
+.Buttonleft_div img{
+	width: 120px;
+}
+.Buttonleft_div span{
+	color: white;
+	font-size:13px;
+}
+#call_way{
+	width: 120px;
+}
+#call_way img{
+	width:35px ;
+	padding-top: 50px;
+	opacity: 0.5;
+}
+#call_way img:hover{
+	opacity: 1;
+}
+#button_diLeft{
+	float: left;
+	width: 120px;
+	overflow: hidden;
+}
+#img_minBox{
+	width:255px;
+	float: left;
+	padding-top: 60px;
+	padding-left: 36px;
+}
+#img_disNone{
+	display: none;
+	width: 300px;
+}
+#button_diRight{
+	float: right;
+	width: auto;
+	color: white;
+	padding-top: 60px;
+}
+.button_ulBox{
+	float: left;
+	width: 120px;
+	padding-left:60px;
+}
+.button_ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.button_ul a{
+	text-decoration: none;
+	color: white;
+}
+.button_ul li:hover{
+	font-size: 14.5px;
+}
+.button_ul li{
+	margin: 6px 0px;
+	font-size: 14px;
+}
+#button_end{
+	text-align: center;
+	width: 978px;
+	height: 50px;
+	line-height: 30px;
+	margin: 0px auto;
+}
+#button_end hr{
+	height: 1px;
+	background-color: #666;
+	border: 0px solid;
+}
+#button_end span{
+	color: #999;
+	font-size: 12px;
+}
+
+
